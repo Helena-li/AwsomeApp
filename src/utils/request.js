@@ -14,7 +14,7 @@ export default{
 
  apiClient.interceptors.request.use(
     async config =>{
-        Toast.showLoading('Toast message');
+        Toast.showLoading('Loading . . .');
 
         const token = await AsyncStorage.getItem('access_token');
 

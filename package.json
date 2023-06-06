@@ -18,7 +18,7 @@
     "mobx": "^6.1.8",
     "mobx-react": "^7.1.0",
     "react": "17.0.1",
-    "react-native": "0.64.0",
+    "react-native": "^0.64.0",
     "react-native-confirmation-code-field": "^7.0.1",
     "react-native-elements": "^3.3.2",
     "react-native-gesture-handler": "^1.10.3",

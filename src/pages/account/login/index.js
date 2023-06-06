@@ -94,7 +94,7 @@ class Login extends Component {
     Toast.showLoading('Toast message');
     // send authentication to Auth0 on Drift
     authenticate().then(()=>Toast.hideLoading());
-    // this.props.navigation.navigate("UserInfo")
+    this.props.navigation.navigate("UserInfo")
   }
 
   render() {
